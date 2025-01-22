@@ -19,6 +19,6 @@ let isLoggedIn = false
 
 //object 
 console.log(typeof("Abhi")) //tells the data type of a value
-console.lof(typeof(null)) //output : object
+console.log(typeof(null)) //output : object
 console.log(typeof undefined); // output : undefined
 
