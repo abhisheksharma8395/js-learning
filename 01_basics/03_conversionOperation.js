@@ -63,3 +63,13 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
+ /* pre Increment And Post Increment */
+let x = 5
+const y = x++          //post increment
+console.log(`x:${x},y:${y}`) //x:6,y:5
+
+let p = 4
+const q= ++p  //pre increment
+console.log(`p:${p},q:${q}`) //p:,q:5
+
+ 
