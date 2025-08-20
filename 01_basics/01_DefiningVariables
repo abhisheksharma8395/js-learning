@@ -1,0 +1,23 @@
+let number; //Declaration
+number = 13; //Initialisation (giving value to variable first time)
+let  input= 12 //Declaration and Initialisation
+
+
+//There are four ways of defining a variable in javascript
+a = 12  // It is non formal way of declaring variables 
+var b = 12;
+let c = 12;     // It is used to declare the variables that is not constant
+const d = 12;  //It is used to define the constant values
+
+
+// -------------------------------------------------------------------
+
+var a = 12;
+
+// window mein add hota h
+// Function scoped hota h
+// Aap firse declare kr skte ho and error nahi ayega
+
+var a = "Abhishek";
+
+console.log(a);
