@@ -6,7 +6,7 @@ let  input= 12 //Declaration and Initialisation
 //There are four ways of defining a variable in javascript
 a = 12  // It is non formal way of declaring variables 
 var b = 12;
-let c = 12;     // It is used to declare the variables that is not constant
+let c = 12;     // It is used to declare the variables that is not constant and it is block scope
 const d = 12;  //It is used to define the constant values
 
 
@@ -21,3 +21,15 @@ var a = 12;
 var a = "Abhishek";
 
 console.log(a);
+
+//Prints 12 but in other language it will gives an error
+abcd();
+
+
+//Example of how is var is functional scoped
+function abcd(){
+    if(true){
+        var variable = 12;
+    }
+    console.log(variable);
+}
