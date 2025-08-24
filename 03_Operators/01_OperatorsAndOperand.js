@@ -207,4 +207,8 @@ Answer -> The !! operator is used to convert a value to its boolean equivalent i
 or falsy value. The first ! negates the value, converting it to a boolean and inverting its truthiness and the 
 second ! negates it again, resulting in the original truthiness of the value.
 
-*/
+
+Question2 -> What is the difference in ++i and i++ ?
+Answer -> The difference between ++i (pre-increment) and i++ (post-increment) lies in the timing of the increment operation relative to the value being used in an expression.
+In the case of ++i, the variable i is incremented by 1 before its value is used in the expression.
+ */ 
