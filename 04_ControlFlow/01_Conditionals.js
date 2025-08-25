@@ -51,8 +51,22 @@ switch (day) {
         break;
 }
 
-/* 🚨Queestion -> What is the difference between switch case and if else?
+/* 🚨Queestion 01 -> What is the difference between switch case and if else?
 Answer -> The main difference between switch case and if else is that switch case is used to check for equality, while if else can 
 be used to check for a variety of conditions. Switch case is also more efficient than if else when there are multiple conditions to 
 check, as it only evaluates the expression once, while if else evaluates the condition multiple times.
+*/
+
+
+/*
+Early return operator -> The early return operator is a programming technique that allows you to exit a function
+early if a certain condition is met. This can help to reduce the amount of nested code and make your code more readable.
+*/
+
+/*
+
+🚨 Question 02 -> What is Fall Through in Switch Case.
+Answer -> Fall through in switch case is a behavior where the execution of code continues from one case to the next case
+without a break statement. This means that if a case matches, the code for that case will be executed, and then the code for 
+the next case will also be executed, and so on, until a break statement is encountered or the end of the switch statement is reached.
 */
