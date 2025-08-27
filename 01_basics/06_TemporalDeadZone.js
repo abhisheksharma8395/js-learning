@@ -1,4 +1,4 @@
-// Temporal Dead Zone ->
+// Temporal Dead Zone -> The TDZ is the area between the start of the scope and the point where the variable is declared and initialized.
 
 console.log(a); // It will give an error "Can't access a before Initialisation."
 //In other programming language it will give an error "a is not Defined." 
